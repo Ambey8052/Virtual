@@ -27,7 +27,7 @@ export default function CTA() {
           {/* Buttons */}
           <div className="mt-10 flex flex-wrap justify-center gap-6">
             <a
-              href="#signup"
+              href="/signup"
               className="px-8 py-4 rounded-full bg-gradient-to-r from-yellow-400 to-orange-500 text-black font-bold shadow-lg hover:scale-105 hover:shadow-2xl transition-transform flex items-center gap-2"
             >
               <FaRocket /> Get Started

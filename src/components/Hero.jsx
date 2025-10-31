@@ -1,4 +1,5 @@
 'use client'
+import Link from 'next/link'
 import { motion } from 'framer-motion'
 import { FaMapMarkedAlt } from 'react-icons/fa'
 
@@ -20,7 +21,7 @@ export default function Hero() {
   transition={{delay:0.3}} 
   className="mt-8 flex flex-wrap gap-4"
 >
-  <a className="btn-primary" href="#features">
+  <a className="btn-primary" href="/explore">
     🚀 Start Exploring
   </a>
 
@@ -29,7 +30,7 @@ export default function Hero() {
   </a>
 
   {/* Extra Fancy Button */}
-  <a className="btn-glow" href="#signup">
+  <a className="btn-glow" href="/signup">
     ✨ Join Beta
   </a>
 </motion.div>

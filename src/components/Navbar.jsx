@@ -1,4 +1,7 @@
+
 'use client'
+import Link from 'next/link'
+
 import { useState } from 'react'
 import { motion } from 'framer-motion'
 import { FiMenu, FiX } from 'react-icons/fi'
@@ -23,7 +26,7 @@ return (
 <a href="#how" className="text-slate-700 hover:text-primary transition">How it works</a>
 <a href="#testimonials" className="text-slate-700 hover:text-primary transition">Testimonials</a>
 <a href="#pricing" className="text-slate-700 hover:text-primary transition">Pricing</a>
-<a href="#" className="btn-primary">Get Started</a>
+<a href="/login" className="btn-primary">Get Started</a>
 </div>
 
 
